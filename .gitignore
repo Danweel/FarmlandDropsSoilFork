@@ -1,3 +1,25 @@
-/bin/
-/obj/
-/build/
+# Build outputs
+bin/
+obj/
+
+# IDE files
+.vs/
+.idea/
+*.omni
+*.suo
+*.user
+*.csproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*~
+*.bak
+.omni
+omnitype.txt

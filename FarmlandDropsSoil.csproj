@@ -1,29 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		
-		<AssemblyTitle>Farmland Drops Soil</AssemblyTitle>
-		<Description>Vintage Story mod that makes farmland have a chance to drop soil depending on nutrient levels</Description>
-		<Authors>copygirl</Authors>
-		<Version>1.4.0</Version>
-		
-		<TargetFramework>net461</TargetFramework>
-		<LangVersion>latest</LangVersion>
-		
-	</PropertyGroup>
-	<ItemGroup>
-		
-		<Reference Include="VintagestoryAPI">
-			<HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="VSEssentials">
-			<HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="VSSurvivalMod">
-			<HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		
-	</ItemGroup>
+  <PropertyGroup>
+    <AssemblyTitle>Farmland Drops Soil</AssemblyTitle>
+    <Description>Vintage Story mod that makes farmland have a chance to drop soil depending on nutrient levels</Description>
+    <Authors>Copygirl, Danweel</Authors>
+    <Version>1.22.0</Version>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Important for VS mods -->
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>/home/danweel/.config/VSLGameVersions/1.22.0/VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSSurvivalMod">
+      <HintPath>/home/danweel/.config/VSLGameVersions/1.22.0/Mods/VSSurvivalMod.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
 </Project>

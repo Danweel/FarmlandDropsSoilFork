@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modId": "farmlanddropssoil",
+  "name": "Farmland Drops Soil (Updated)",
+  "authors": ["Copygirl", "Danweel"],
+  "description": "Farmland has a chance to drop soil when broken, based on nutrient levels. Fork of original mod by Copygirl, updated for Vintage Story 1.22+.",
+  "version": "1.22.0",
+  "dependencies": {
+    "game": "1.22.0"
+  },
+  "side": "Universal",
+  "website": "https://mods.vintagestory.at/show/mod/YOUR_NEW_MOD_ID_HERE", 
+  "originalAuthor": "https://github.com/copygirl/FarmlandDropsSoil"
+}
