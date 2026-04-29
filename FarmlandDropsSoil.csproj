@@ -4,10 +4,9 @@
     <Description>Vintage Story mod that makes farmland have a chance to drop soil depending on nutrient levels</Description>
     <Authors>Copygirl, Danweel</Authors>
     <Version>1.22.0</Version>
+
     <TargetFramework>net10.0</TargetFramework>
     <LangVersion>latest</LangVersion>
-
-    <!-- Important for VS mods -->
     <Nullable>disable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "file": "FarmlandDropsSoil.json",
+  "settings": [
+    {
+      "code": "DROP_THRESHOLD_PERCENT",
+      "name": "DropThresholdPercent",
+      "type": "float",
+      "default": 0.95,
+      "comment": "The nutrient threshold (0.0 to 1.0) below which drops become probabilistic. If nutrients are above this, soil is guaranteed.",
+      "range": { "min": 0.0, "max": 1.0, "step": 0.05 }
+    },
+    {
+      "code": "MIN_DROP_CHANCE",
+      "name": "MinDropChance",
+      "type": "float",
+      "default": 0.0,
+      "comment": "The minimum guaranteed drop chance (0.0 to 1.0) even if nutrients are 0%. Set above 0 for a forgiving mode.",
+      "range": { "min": 0.0, "max": 1.0, "step": 0.05 }
+    },
+    {
+      "code": "PRESERVE_ORIGINAL_TIER",
+      "name": "PreserveOriginalTier",
+      "type": "boolean",
+      "default": false,
+      "comment": "If true, drops the soil block corresponding to the farmland's ORIGINAL TIER, regardless of current nutrient level. Different from 'Farmland Drops With Nutrients' which preserves nutrient values."
+    },
+    {
+      "code": "ALWAYS_DROP",
+      "name": "AlwaysDrop",
+      "type": "boolean",
+      "default": false,
+      "comment": "If true, always drop soil regardless of nutrient levels. Bypasses all chance calculations."
+    }
+  ]
+}
