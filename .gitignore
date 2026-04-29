@@ -1,25 +1,30 @@
 # Build outputs
 bin/
 obj/
+*.dll
+*.pdb
+
+# Development artifacts
+lib/
+omni/
+.vs/
+.vscode/
 
 # IDE files
-.vs/
 .idea/
-*.omni
-*.suo
-*.user
-*.csproj.user
+*.swp
+*.swo
 
 # OS files
 .DS_Store
 Thumbs.db
 
+# Vintage Story specific
+*.zip
+!FarmlandDropsSoil-*.zip  # Keep release zips if you want, or remove this line
+
 # Logs
 *.log
-logs/
-
-# Backup files
-*~
-*.bak
-.omni
-omnitype.txt
+*.txt
+!README.md
+!CHANGELOG.md
