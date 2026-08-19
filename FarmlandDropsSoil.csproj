@@ -3,7 +3,7 @@
     <AssemblyTitle>Farmland Drops Soil</AssemblyTitle>
     <Description>Vintage Story mod that makes farmland have a chance to drop soil depending on nutrient levels</Description>
     <Authors>Copygirl, Danweel</Authors>
-    <Version>1.22.0</Version>
+    <Version>1.22.7</Version>
 
     <TargetFramework>net10.0</TargetFramework>
     <LangVersion>latest</LangVersion>
@@ -12,12 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Update these paths if building on a different system or VS version -->
     <Reference Include="VintagestoryAPI">
-      <HintPath>/home/danweel/.config/VSLGameVersions/1.22.0/VintagestoryAPI.dll</HintPath>
+      <HintPath>/home/danweel/VintageStory_Installs/1.22.3/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
-      <HintPath>/home/danweel/.config/VSLGameVersions/1.22.0/Mods/VSSurvivalMod.dll</HintPath>
+      <HintPath>/home/danweel/VintageStory_Installs/1.22.3/Mods/VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

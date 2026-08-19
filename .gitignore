@@ -28,3 +28,5 @@ Thumbs.db
 *.txt
 !README.md
 !CHANGELOG.md
+.omni
+omnitype.txt
