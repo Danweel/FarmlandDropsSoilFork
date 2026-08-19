@@ -36,6 +36,10 @@ This mod should work with Vintage Story 1.21.0 through 1.22.7. I've tested it on
 
 If you're running something outside that range and it breaks, let me know anyway. I haven't tested every release, so there's some assumption involved here.
 
+### Compatibility with other farmland-drops mods
+
+In farmland.json I've changed `"op" : "add"` to `"op" : "addmerge"` so farmland blocks won't overwrite behaviors added by other mods. However, if another mod also overrides the `GetDrops()` method (like Farmland Drops With Nutrients), you'll still get a conflict — only one mod's drop logic will run.
+
 ### Important compatibility note
 
 This mod overrides how farmland behaves when broken, so it will conflict with other mods that do the same thing:
