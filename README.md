@@ -1,7 +1,7 @@
 # Farmland Drops Soil (Fork)
 
 **Original Author:** [Copygirl](https://github.com/copygirl/FarmlandDropsSoil)
-**Original License:** UNLICENSE (please keep the licence as such)
+**Original License:** UNLICENSE (please keep the license as such)
 
 ## Purpose
 This repository is a fork of the original [FarmlandDropsSoil](https://github.com/copygirl/FarmlandDropsSoil) and was incompatible with Vintage Story 1.22+ due to API changes.
@@ -21,6 +21,7 @@ This repository is a fork of the original [FarmlandDropsSoil](https://github.com
 - Added some information to `modinfo.json`.
 - Changed README
 - Added CONTRIBUTING
+- Added compatibility with configlib, etc.
 
 ## Installation
 1. Download the latest release from the [Releases tab](https://github.com/Danweel/FarmlandDropsSoil/releases).
@@ -88,7 +89,7 @@ This is a community-maintained project. Contributions or takeovers are welcome.
 ### 1.22.7
 - Updated version number to reflect 1.22.7 compatibility, updated site numbers.
 - Investigated and broadened supported version range to 1.21.0–1.22.
-- Updated a few documenatation things, conflict notes.
+- Updated a few documentation things, conflict notes.
 
 ### 1.22.0
 - Updated GetDrops signature for VS 1.22 API (the main issue)
